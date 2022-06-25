@@ -12,6 +12,7 @@ const questions = [
   "What is your favourite movie?"
 ];
 
+// for-of loop is better readable for arrays
 for (const question of questions) {
   const firstName = prompt(questions[0])
   const lastName = prompt(questions[1])
